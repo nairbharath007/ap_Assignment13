@@ -87,9 +87,9 @@ namespace MovieStoreApp.Model
                 Console.WriteLine("Movies in the store:");
                 for (int i = 0; i < movieCount; i++)
                 {
-                    //Console.WriteLine(movieStore[i]);
-                    Console.WriteLine($"Index: {i}");
-                    movieStore[i].DisplayInfo();
+                    Console.WriteLine(movieStore[i].DisplayInfo());
+                    /*Console.WriteLine($"Index: {i}");
+                    movieStore[i].DisplayInfo();*/
                     Console.WriteLine(); 
                 }
             }

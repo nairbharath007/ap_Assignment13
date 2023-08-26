@@ -19,7 +19,8 @@ namespace MovieStoreApp.Model
             ImdbRating = imdbRating;
         }
 
-        public abstract void DisplayInfo();
+        //public abstract void DisplayInfo();
+        public abstract string DisplayInfo();
 
 
     }

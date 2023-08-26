@@ -22,23 +22,23 @@ namespace MovieStoreApp.Model
             DurationMinutes = durationMinutes;
         }
 
-        /*public override string ToString()
+        public override string DisplayInfo()
         {
             return $"{Title} ({Year}) - {Genre}\n" +
                    $"Cast: {Cast}\n" +
                    $"Plot: {Plot}\n" +
                    $"Duration: {DurationMinutes} minutes\n" +
                    $"IMDb Rating: {ImdbRating}";
-        }*/
+        }
 
-        public override void DisplayInfo()
+        /*public override void DisplayInfo()
         {
             Console.WriteLine($"  {Title} ({Year}) - {Genre}");
             Console.WriteLine($"  Cast: {Cast}");
             Console.WriteLine($"  Plot: {Plot}");
             Console.WriteLine($"  Duration: {DurationMinutes} minutes");
             Console.WriteLine($"  IMDb Rating: {ImdbRating}");
-        }
+        }*/
 
     }
 }
